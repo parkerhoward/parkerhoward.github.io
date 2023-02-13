@@ -76,6 +76,41 @@ footer a {
   color: white;
   text-decoration: none;
 }
+form {
+  background-color: #ffcc66; /* match the background color of the .coming-soon class */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* match the box-shadow of the .coming-soon class */
+  padding: 20px; /* match the padding of the .coming-soon class */
+  margin-bottom: 20px; /* match the margin-bottom of the .coming-soon class */
+  text-align: center; /* match the text-align of the .coming-soon class */
+}
+
+form h2 {
+  font-size: 22px; /* match the font-size of the h2 in the .coming-soon class */
+  margin-bottom: 10px; /* match the margin-bottom of the h2 in the .coming-soon class */
+}
+
+form label {
+  font-size: 16px; /* match the font-size of the p in the .coming-soon class */
+  display: block; /* display the label as a block-level element */
+  margin-bottom: 10px; /* add some margin to the bottom of the label */
+}
+
+form input[type="text"], form textarea {
+  width: 100%; /* make the input and textarea elements take up the full width of the form */
+  padding: 10px; /* add some padding to the input and textarea elements */
+  margin-bottom: 20px; /* add some margin to the bottom of the input and textarea elements */
+  font-size: 16px; /* match the font-size of the p in the .coming-soon class */
+  border: 1px solid #ccc; /* add a border to the input and textarea elements */
+}
+
+form input[type="submit"] {
+  background-color: #333; /* match the background color of the header and footer */
+  color: white; /* match the color of the text in the header and footer */
+  padding: 10px 20px; /* add some padding to the submit button */
+  border: none; /* remove the border from the submit button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the submit button */
+}
+
 
     </style>
   </head>
@@ -103,23 +138,28 @@ footer a {
 	</div>
 <div class="coming-soon">
  	 <h2>Need to get in touch?</h2>
- 	 <p>Send me an email - hi[at]prkr.ch</p>
+ 	 <div class="contact-form">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/xgebadvn" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 	</div>
 
       </div>
 
 
     </section>
-<section>
-  <div class="container">
-    <form action="https://formspree.io/f/xgebadvn" method="POST">
-      <input type="text" name="name" placeholder="Your Name">
-      <input type="email" name="email" placeholder="Your Email">
-      <textarea name="message" placeholder="Your Message"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-</section>
 
 <footer>
   <div class="container">
