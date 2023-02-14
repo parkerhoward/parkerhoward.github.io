@@ -68,3 +68,46 @@ footer a {
   color: white;
   text-decoration: none;
 }
+
+/* Form formatting
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contactform {
+background-color: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form textarea {
+  width: 100%; /* make the input and textarea elements take up the full width of the form */
+  padding: 10px; /* add some padding to the input and textarea elements */
+  margin-bottom: 20px; /* add some margin to the bottom of the input and textarea elements */
+  font-size: 16px; /* match the font-size of the p in the .coming-soon class */
+  border: 1px solid #ccc; /* add a border to the input and textarea elements */
+}
+
+button[type="submit"] {
+  background-color: #333; /* match the background color of the header and footer */
+  color: white; /* match the color of the text in the header and footer */
+  padding: 10px 20px; /* add some padding to the submit button */
+  border: none; /* remove the border from the submit button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the submit button */
+}
