@@ -1,0 +1,70 @@
+/* Add some styles to give the website a modern look */
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f2f2f2;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      section {
+        padding: 50px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      /* Add some styles for the introduction */
+      .introduction {
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .introduction h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .introduction p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      .coming-soon {
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .coming-soon h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      }
+      .coming-soon p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      }
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
