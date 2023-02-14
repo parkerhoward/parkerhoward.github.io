@@ -104,7 +104,7 @@ form input[type="text"], form textarea {
   border: 1px solid #ccc; /* add a border to the input and textarea elements */
 }
 
-form button[type="submit"] {
+.coming-soon form button[type="submit"] {
   background-color: #333; /* match the background color of the header and footer */
   color: white; /* match the color of the text in the header and footer */
   padding: 10px 20px; /* add some padding to the submit button */
